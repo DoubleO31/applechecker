@@ -14,9 +14,9 @@ except ImportError:
     from urllib import urlencode
 from Alert import SmtpAlert
 
-# only tested for US stores
-URL = "http://www.apple.com/shop/retail/pickup-message"
-BUY = "http://store.apple.com/xc/product/"
+# for Canda store
+URL = "https://www.apple.com/ca/shop/retail/pickup-message"
+BUY = "http://store.apple.com/ca/shop/go/product"
 
 DATEFMT = "[%m/%d/%Y-%H:%M:%S]"
 LOADING = ['-', '\\', '|', '/']
